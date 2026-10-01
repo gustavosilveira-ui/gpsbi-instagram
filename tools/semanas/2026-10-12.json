@@ -2,40 +2,43 @@
  {
   "file": "2026-10-12_capital-de-giro",
   "tag": "Gestão financeira",
-  "body": "<div class=bar></div>\n<h1>Você está <em>financiando</em> seu&nbsp;cliente.</h1>\n<div class=cmp>\n <div class=box><div class=k>Você paga</div><div class=v>30 dias</div><div class=s>fornecedor</div></div>\n <div class=box hl><div class=k>Você recebe</div><div class=v>60 dias</div><div class=s>cliente</div></div>\n</div>\n<p>Nesse exemplo, são 30 dias em que o dinheiro sai do seu caixa antes de voltar. <b>Isso é capital&nbsp;de&nbsp;giro.</b></p>"
+  "theme": "light",
+  "body": "<div class=bar></div><h1>Você está <em>financiando</em> seu&nbsp;cliente.</h1><div class=cmp><div class=box><div class=k>Você paga</div><div class=v>30 dias</div><div class=s>fornecedor</div></div><div class=\"box hl\"><div class=k>Você recebe</div><div class=v>60 dias</div><div class=s>cliente</div></div></div><p>Nesse exemplo, são 30 dias em que o dinheiro sai do seu caixa antes de voltar. <b>Isso é capital&nbsp;de&nbsp;giro.</b></p>"
  },
  {
   "file": "2026-10-14_contas-a-receber-1",
   "tag": "BI na prática",
-  "body": "<div class=bar></div>\n<h1>O que um painel de contas a receber <em>precisa mostrar.</em></h1>\n<p>Saber o total em aberto é pouco. A pergunta é: <b>quanto disso vai virar dinheiro?</b></p>",
-  "foot": "arraste <span class=swipe>→</span>"
+  "foot": "arraste <span class=swipe>→</span>",
+  "body": "<div class=bar></div><h1>O que um painel de contas a receber <em>precisa mostrar.</em></h1><p>Saber o total em aberto é pouco. A pergunta é: <b>quanto disso vai virar dinheiro?</b></p>"
  },
  {
   "file": "2026-10-14_contas-a-receber-2",
   "tag": "Visão 1",
-  "body": "<div class=num>01</div>\n<h2>Vencidos por <em>faixa&nbsp;de&nbsp;atraso</em></h2>\n<p>Até 30, de 31 a 60, de 61 a 90 e acima de 90 dias. <b>Quanto mais velho o atraso, menor a chance de receber.</b></p>",
-  "foot": "arraste <span class=swipe>→</span>"
+  "foot": "arraste <span class=swipe>→</span>",
+  "body": "<div class=num>01</div><h2>Vencidos por <em>faixa&nbsp;de&nbsp;atraso</em></h2><div class=\"chart\"><div class=vbars><i class=\"\" style=\"--h:92%\" data-l=\"até 30d\" data-v=\"R$ 48k\"></i><i class=\"\" style=\"--h:55%\" data-l=\"31–60d\" data-v=\"R$ 29k\"></i><i class=\"\" style=\"--h:30%\" data-l=\"61–90d\" data-v=\"R$ 16k\"></i><i class=\"hl\" style=\"--h:42%\" data-l=\"+90d\" data-v=\"R$ 22k\"></i></div></div><div class=note>Dados ilustrativos · quanto mais velho o atraso, menor a chance de receber</div>"
  },
  {
   "file": "2026-10-14_contas-a-receber-3",
   "tag": "Visão 2",
-  "body": "<div class=num>02</div>\n<h2>Quem concentra o <em>valor em aberto</em></h2>\n<p>Ranking por cliente. Às vezes poucos nomes respondem pela maior parte do risco, e <b>a&nbsp;cobrança começa por eles.</b></p>",
-  "foot": "arraste <span class=swipe>→</span>"
+  "foot": "arraste <span class=swipe>→</span>",
+  "body": "<div class=num>02</div><h2>Quem concentra o <em>valor em&nbsp;aberto</em></h2><div class=\"chart hbars\"><div class=row><span class=l>Cliente A</span><span class=t><i class=\"hl\" style=\"--w:85%\"></i></span><span class=v>34%</span></div><div class=row><span class=l>Cliente B</span><span class=t><i class=\"hl\" style=\"--w:53%\"></i></span><span class=v>21%</span></div><div class=row><span class=l>Cliente C</span><span class=t><i class=\"\" style=\"--w:30%\"></i></span><span class=v>12%</span></div><div class=row><span class=l>Cliente D</span><span class=t><i class=\"\" style=\"--w:15%\"></i></span><span class=v>6%</span></div><div class=row><span class=l>Outros</span><span class=t><i class=\"\" style=\"--w:68%\"></i></span><span class=v>27%</span></div></div><div class=note>Dados ilustrativos · a cobrança começa pelos maiores</div>"
  },
  {
   "file": "2026-10-14_contas-a-receber-4",
   "tag": "Visão 3",
-  "body": "<div class=num>03</div>\n<h2>A <em>tendência</em> mês a mês</h2>\n<p>% vencido sobre a carteira ao longo do tempo. <b>Um número isolado não diz nada.</b> A curva mostra se está melhorando ou piorando.</p>",
-  "foot": "arraste <span class=swipe>→</span>"
+  "foot": "arraste <span class=swipe>→</span>",
+  "body": "<div class=num>03</div><h2>A <em>tendência</em> mês a&nbsp;mês</h2><div class=chart><svg viewBox=\"0 0 804 340\"><polygon points=\"10,290 10,266 167,244 324,225 480,178 637,137 794,64 794,290\" fill=\"rgba(54,226,201,.12)\"/><polyline points=\"10,266 167,244 324,225 480,178 637,137 794,64\" fill=\"none\" stroke=\"#36E2C9\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"10\" cy=\"266\" r=\"6\" fill=\"#36E2C9\"/><circle cx=\"167\" cy=\"244\" r=\"6\" fill=\"#36E2C9\"/><circle cx=\"324\" cy=\"225\" r=\"6\" fill=\"#36E2C9\"/><circle cx=\"480\" cy=\"178\" r=\"6\" fill=\"#36E2C9\"/><circle cx=\"637\" cy=\"137\" r=\"6\" fill=\"#36E2C9\"/><circle cx=\"794\" cy=\"64\" r=\"9\" fill=\"#36E2C9\"/><text x=\"790\" y=\"44\" text-anchor=\"end\" font-size=\"28\" font-weight=\"700\" fill=\"#F6F9FC\" font-family=\"Inter\">12,5%</text><text x=\"10\" y=\"328\" text-anchor=\"start\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">mai</text><text x=\"167\" y=\"328\" text-anchor=\"middle\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">jun</text><text x=\"324\" y=\"328\" text-anchor=\"middle\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">jul</text><text x=\"480\" y=\"328\" text-anchor=\"middle\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">ago</text><text x=\"637\" y=\"328\" text-anchor=\"middle\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">set</text><text x=\"794\" y=\"328\" text-anchor=\"end\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">out</text></svg></div><div class=note>Dados ilustrativos · % vencido sobre a carteira</div>"
  },
  {
   "file": "2026-10-14_contas-a-receber-5",
   "tag": "GPSBI",
-  "body": "<div class=bar></div>\n<h1>Seu contas a receber já é <em>um&nbsp;painel?</em></h1>\n<p>A GPSBI conecta seu ERP a dashboards que mostram <b>o que cobrar, de quem e quando.</b></p>\n<div><span class=pill>Fale com a gente · gpsbi.com.br</span></div>"
+  "theme": "light",
+  "body": "<div class=bar></div><h1>Seu contas a receber já é <em>um&nbsp;painel?</em></h1><p>A GPSBI conecta seu ERP a dashboards que mostram <b>o que cobrar, de quem e quando.</b></p><div><span class=pill>Fale com a gente · gpsbi.com.br</span></div>"
  },
  {
   "file": "2026-10-16_antes-do-grafico",
   "tag": "Visão GPSBI",
-  "body": "<div class=bar></div>\n<h1>Todo projeto de BI começa sem <em>nenhum&nbsp;gráfico.</em></h1>\n<p>Começa com uma conversa: <b>quais decisões você precisa tomar</b> e o que falta saber para&nbsp;tomá-las.</p>\n<div><span class=pill>Gustavo Silveira · fundador GPSBI</span></div>"
+  "theme": "quote",
+  "body": "<h1>Todo projeto de BI começa sem <em>nenhum&nbsp;gráfico.</em></h1><p>Começa com uma conversa: <b>quais decisões você precisa tomar</b> e o que falta saber para&nbsp;tomá-las.</p><div class=sign><b>Gustavo Silveira</b><span>fundador GPSBI</span></div>"
  }
 ]

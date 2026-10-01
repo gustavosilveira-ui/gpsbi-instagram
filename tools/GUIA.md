@@ -21,8 +21,15 @@
 - Legenda: gancho na 1ª linha, desenvolvimento curto, CTA (comentar, arrastar ou "link na bio"), de 5 a 7 hashtags, sempre incluindo #GPSBI.
 
 ## Arte
-- Gerador: `python3 tools/render.py tools/semanas/AAAA-MM-DD.json` (AAAA-MM-DD = segunda da semana). Usar o JSON de 2026-10-05 como modelo de layout e classes.
-- Paleta: Azul #071B33, Azul 2 #0B2545, Ciano #36E2C9, Branco #F6F9FC. Fonte Inter. Logo branca no topo (já embutida no gerador).
+- Gerador: `python3 tools/render.py tools/semanas/AAAA-MM-DD.json` (AAAA-MM-DD = segunda da semana). Leia o docstring de tools/render.py e use tools/semanas/_build.py como modelo (ele tem helpers de gráfico de linha, barras verticais e ranking).
+- Marca: **só a seta** (sem escrever "Gpsbi"), já embutida no gerador. Seta colorida no tema claro, branca nos escuros.
+- **Variar os modelos para o grid não ficar repetitivo** (decisão do Gustavo):
+  - Segunda → tema `light` (fundo claro, destaque marca-texto ciano).
+  - Quarta → carrossel tema `dark`: capa tipográfica; telas internas SEMPRE com um gráfico ilustrativo (linha, barras ou ranking) e a nota "Dados ilustrativos"; última tela (CTA) em `light`.
+  - Sexta → tema `quote` (citação + assinatura do Gustavo).
+- Números em formato brasileiro (vírgula decimal, R$).
+- Sem fotos por enquanto (decisão do Gustavo em 01/10/2026).
+- Paleta: Azul #071B33, Azul 2 #0B2545, Ciano #36E2C9, Branco #F6F9FC. Fonte Inter.
 - Formato 1080x1350. Nome: `AAAA-MM-DD_tema.png`, carrossel `AAAA-MM-DD_tema-1.png`, `-2.png`...
 - Depois de gerar, abrir cada PNG e conferir se há texto cortado, palavra solta numa linha ou sobreposição.
 

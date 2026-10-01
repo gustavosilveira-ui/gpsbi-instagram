@@ -1,0 +1,41 @@
+[
+ {
+  "file": "2026-10-12_capital-de-giro",
+  "tag": "Gestão financeira",
+  "body": "<div class=bar></div>\n<h1>Você está <em>financiando</em> seu&nbsp;cliente.</h1>\n<div class=cmp>\n <div class=box><div class=k>Você paga</div><div class=v>30 dias</div><div class=s>fornecedor</div></div>\n <div class=box hl><div class=k>Você recebe</div><div class=v>60 dias</div><div class=s>cliente</div></div>\n</div>\n<p>Nesse exemplo, são 30 dias em que o dinheiro sai do seu caixa antes de voltar. <b>Isso é capital&nbsp;de&nbsp;giro.</b></p>"
+ },
+ {
+  "file": "2026-10-14_contas-a-receber-1",
+  "tag": "BI na prática",
+  "body": "<div class=bar></div>\n<h1>O que um painel de contas a receber <em>precisa mostrar.</em></h1>\n<p>Saber o total em aberto é pouco. A pergunta é: <b>quanto disso vai virar dinheiro?</b></p>",
+  "foot": "arraste <span class=swipe>→</span>"
+ },
+ {
+  "file": "2026-10-14_contas-a-receber-2",
+  "tag": "Visão 1",
+  "body": "<div class=num>01</div>\n<h2>Vencidos por <em>faixa&nbsp;de&nbsp;atraso</em></h2>\n<p>Até 30, de 31 a 60, de 61 a 90 e acima de 90 dias. <b>Quanto mais velho o atraso, menor a chance de receber.</b></p>",
+  "foot": "arraste <span class=swipe>→</span>"
+ },
+ {
+  "file": "2026-10-14_contas-a-receber-3",
+  "tag": "Visão 2",
+  "body": "<div class=num>02</div>\n<h2>Quem concentra o <em>valor em aberto</em></h2>\n<p>Ranking por cliente. Às vezes poucos nomes respondem pela maior parte do risco, e <b>a&nbsp;cobrança começa por eles.</b></p>",
+  "foot": "arraste <span class=swipe>→</span>"
+ },
+ {
+  "file": "2026-10-14_contas-a-receber-4",
+  "tag": "Visão 3",
+  "body": "<div class=num>03</div>\n<h2>A <em>tendência</em> mês a mês</h2>\n<p>% vencido sobre a carteira ao longo do tempo. <b>Um número isolado não diz nada.</b> A curva mostra se está melhorando ou piorando.</p>",
+  "foot": "arraste <span class=swipe>→</span>"
+ },
+ {
+  "file": "2026-10-14_contas-a-receber-5",
+  "tag": "GPSBI",
+  "body": "<div class=bar></div>\n<h1>Seu contas a receber já é <em>um&nbsp;painel?</em></h1>\n<p>A GPSBI conecta seu ERP a dashboards que mostram <b>o que cobrar, de quem e quando.</b></p>\n<div><span class=pill>Fale com a gente · gpsbi.com.br</span></div>"
+ },
+ {
+  "file": "2026-10-16_antes-do-grafico",
+  "tag": "Visão GPSBI",
+  "body": "<div class=bar></div>\n<h1>Todo projeto de BI começa sem <em>nenhum&nbsp;gráfico.</em></h1>\n<p>Começa com uma conversa: <b>quais decisões você precisa tomar</b> e o que falta saber para&nbsp;tomá-las.</p>\n<div><span class=pill>Gustavo Silveira · fundador GPSBI</span></div>"
+ }
+]

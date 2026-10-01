@@ -30,3 +30,4 @@
 | Semana | Seg | Qua | Sex |
 |---|---|---|---|
 | 2026-10-05 | Lucro no papel não paga boleto (DRE x caixa) | 3 perguntas que um bom dashboard responde | Planilha não é o problema |
+| 2026-10-12 | Você está financiando seu cliente (capital de giro / prazos) | O que um painel de contas a receber precisa mostrar | Todo projeto de BI começa sem nenhum gráfico |

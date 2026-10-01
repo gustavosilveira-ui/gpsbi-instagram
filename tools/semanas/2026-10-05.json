@@ -1,0 +1,41 @@
+[
+ {
+  "file": "2026-10-05_lucro-nao-e-caixa",
+  "tag": "Gestão financeira",
+  "body": "<div class=bar></div>\n<h1>Lucro no papel<br>não paga<br><em>boleto.</em></h1>\n<div class=cmp>\n <div class=box><div class=k>DRE do mês</div><div class=v>+ lucro</div><div class=s>vendas faturadas</div></div>\n <div class=box hl><div class=k>Caixa do mês</div><div class=v>– saldo</div><div class=s>vendas a receber</div></div>\n</div>\n<p>A empresa pode dar lucro e ficar sem dinheiro.<br>Quem decide olhando só o resultado, <b>quebra com a DRE positiva.</b></p>"
+ },
+ {
+  "file": "2026-10-07_dashboard-1",
+  "tag": "BI na prática",
+  "body": "<div class=bar></div>\n<h1>3 perguntas que um bom dashboard responde em <em>10 segundos.</em></h1>\n<p>Se você precisa abrir 4 planilhas para responder, o problema não é falta de dado.</p>",
+  "foot": "arraste <span class=swipe>→</span>"
+ },
+ {
+  "file": "2026-10-07_dashboard-2",
+  "tag": "Pergunta 1",
+  "body": "<div class=num>01</div>\n<h2>Quanto vou ter em <em>caixa</em> daqui a 30 dias?</h2>\n<p>Saldo de hoje + contas a receber – contas a pagar, <b>projetado dia a dia.</b> É o que separa planejar de apagar incêndio.</p>",
+  "foot": "arraste <span class=swipe>→</span>"
+ },
+ {
+  "file": "2026-10-07_dashboard-3",
+  "tag": "Pergunta 2",
+  "body": "<div class=num>02</div>\n<h2>Qual produto ou cliente <em>realmente</em> dá margem?</h2>\n<p>Faturamento alto não é sinônimo de lucro. <b>Margem por produto, canal e cliente</b> mostra onde vale a pena crescer.</p>",
+  "foot": "arraste <span class=swipe>→</span>"
+ },
+ {
+  "file": "2026-10-07_dashboard-4",
+  "tag": "Pergunta 3",
+  "body": "<div class=num>03</div>\n<h2>Onde o mês <em>desviou</em> do planejado?</h2>\n<p>Orçado vs. realizado, por categoria. <b>O desvio aparece antes</b> de virar surpresa no fechamento.</p>",
+  "foot": "arraste <span class=swipe>→</span>"
+ },
+ {
+  "file": "2026-10-07_dashboard-5",
+  "tag": "GPSBI",
+  "body": "<div class=bar></div>\n<h1>Seu painel responde essas <em>3?</em></h1>\n<p>A GPSBI conecta seu ERP e suas planilhas a dashboards que <b>respondem a pergunta, não só mostram o número.</b></p>\n<div><span class=pill>Fale com a gente · gpsbi.com.br</span></div>"
+ },
+ {
+  "file": "2026-10-09_planilha-nao-e-o-problema",
+  "tag": "Visão GPSBI",
+  "body": "<div class=bar></div>\n<h1>Planilha não é o problema.<br><em>Decidir no escuro&nbsp;é.</em></h1>\n<p>A maioria das empresas que atendemos já tem os dados. Falta <b>organizar, cruzar e enxergar</b> no momento da decisão.</p>\n<div><span class=pill>Gustavo Silveira · fundador GPSBI</span></div>"
+ }
+]

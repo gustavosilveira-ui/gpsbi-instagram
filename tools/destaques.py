@@ -45,7 +45,7 @@ STORIES = {
    ("✓", "Começamos pela decisão", "Primeiro o que você precisa decidir. O gráfico vem depois."),
    ("✓", "Entendemos de finanças", "Fluxo de caixa, DRE e margem não são só números para nós."),
    ("✓", "Um painel, não 4 planilhas", "Tudo que importa no mesmo lugar, atualizado."),
-   ("✓", "Seus dados protegidos", "Acesso controlado e tratamento conforme a LGPD."),
+   ("✓", "Perto de você", "Suporte próximo até o painel virar rotina de gestão."),
  ]) + "</div>"),
  "4_contato": story("Contato", '<div class=bar></div><h1>Diagnóstico <em>gratuito.</em></h1><p>Uma conversa para entender seus números e onde um painel faz diferença na sua gestão.</p>'
    '<p style="margin-top:80px">Chama no WhatsApp:</p><div class=big>(11) 99812-5961</div>'

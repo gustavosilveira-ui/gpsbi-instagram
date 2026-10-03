@@ -47,13 +47,26 @@ SEMANAS = {
  },
 }
 
+SEMANAS["extra-2026-10-03"] = {
+  "2026-10-03_story-vem-ai": ("A partir de segunda",
+    '<div class=bar></div><h1>Toda semana, conteúdo para <em>decidir melhor.</em></h1><div style="margin-top:56px">'
+    '<div class=item><div class=ic>S</div><div><h3>Segunda</h3><p>Gestão financeira na prática</p></div></div>'
+    '<div class=item><div class=ic>Q</div><div><h3>Quarta</h3><p>BI e dados, em carrossel</p></div></div>'
+    '<div class=item><div class=ic>S</div><div><h3>Sexta</h3><p>Bastidores e visão de quem vive os projetos</p></div></div>'
+    '</div><p>E stories todo dia. <b>Ativa as notificações</b> 🔔</p>'),
+  "2026-10-04_story-pergunta": ("Pergunta de domingo",
+    '<h1>Você sabe quanto vai ter em <em>caixa</em> daqui a 30&nbsp;dias?</h1>'
+    '<p style="font-size:44px;margin-top:60px">Se a resposta foi "mais ou menos"…</p>'
+    '<p><b>Amanhã às 10h</b> tem post sobre isso no feed. 👀</p>'),
+}
+
 if __name__ == "__main__":
     semana = sys.argv[1]
     with sync_playwright() as p:
         b = p.chromium.launch(); pg = b.new_page(viewport={"width": 1080, "height": 1920})
         for f, (tag, body) in SEMANAS[semana].items():
             out = os.path.join(ROOT, "posts", f[:7], "stories"); os.makedirs(out, exist_ok=True)
-            theme = "quote" if "reflexao" in f else "light" if any(k in f for k in ("mito-1", "termo", "resumo")) else "dark"
+            theme = "quote" if "reflexao" in f else "light" if any(k in f for k in ("mito-1", "termo", "resumo", "vem-ai")) else "dark"
             pg.set_content(story(tag, body, theme)); pg.wait_for_timeout(150)
             pg.screenshot(path=os.path.join(out, f + ".png")); print(f)
         b.close()

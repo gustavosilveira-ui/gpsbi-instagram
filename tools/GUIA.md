@@ -38,3 +38,9 @@
 |---|---|---|---|
 | 2026-10-05 | Lucro no papel não paga boleto (DRE x caixa) | 3 perguntas que um bom dashboard responde | Planilha não é o problema |
 | 2026-10-12 | Você está financiando seu cliente (capital de giro / prazos) | O que um painel de contas a receber precisa mostrar | Todo projeto de BI começa sem nenhum gráfico |
+
+## Stories (desde 05/10/2026)
+- 1 por dia útil + 1 no sábado; domingo sem story. Gerador: `python3 tools/stories.py AAAA-MM-DD` (adicione a semana no dict SEMANAS, siga o modelo de 2026-10-05).
+- Seg 12h dica rápida (dark) · Ter 12h "Mito ou verdade?" (light) + 18h resposta (dark) · Qua 12h "Post novo no feed" com miniatura da capa do carrossel (dark) · Qui 12h termo da semana (light) · Sex 12h reflexão do Gustavo (quote) · Sáb 11h resumo da semana (light).
+- Metricool: instagramData {"type":"STORY"}, sem texto, mediaAltText preenchido, draft true até o Gustavo aprovar.
+- A API não coloca adesivos (enquete, pergunta, link); isso o Gustavo faz pelo app quando quiser.

@@ -50,3 +50,34 @@ if __name__ == "__main__":
         for k, html in COMUNICADOS.items():
             pg.set_content(html); pg.wait_for_timeout(150); pg.screenshot(path=f"{OUT}/{k}.png"); print(k)
         b.close()
+
+
+# ---- Modelo "chamada" (só título, para ir acima do texto no WhatsApp) ----
+SETA = base64.b64encode(open(os.path.join(ROOT, "brand/logo/gpsbi-seta-branco.png"), "rb").read()).decode()
+CHAMADA_CSS = """
+body{display:flex;align-items:center;justify-content:center}
+.rings{position:absolute;inset:0;background:repeating-radial-gradient(circle at 50% 50%, transparent 0 128px, rgba(54,226,201,.10) 128px 140px)}
+.glow{position:absolute;left:50%;top:50%;width:900px;height:900px;transform:translate(-50%,-50%);background:radial-gradient(circle, rgba(54,226,201,.18), transparent 60%)}
+.c{position:relative;text-align:center}
+.c .s{height:120px;margin-bottom:56px}
+.c h1{font-size:132px;line-height:1;letter-spacing:-3px}
+.c .pill{margin-top:64px;font-size:40px;padding:18px 44px;border-width:3px}
+.brand{position:absolute;bottom:90px;left:0;right:0;text-align:center}
+.brand img{height:64px}
+"""
+
+def chamada(titulo, selo):
+    return f"""<html><head><style>{CSS}{CHAMADA_CSS}</style></head><body class=dark><div class=bg></div><div class=rings></div><div class=glow></div>
+<div class=c><img class=s src="data:image/png;base64,{SETA}"><h1>{titulo}</h1><div><span class=pill>{selo}</span></div></div>
+<div class=brand><img src="data:image/png;base64,{LOGO}"></div></body></html>"""
+
+CHAMADAS = {
+ "2026-10-12_chamada-feriado": chamada("Aviso de<br><em>feriado</em>", "12/10 · segunda-feira"),
+}
+
+if __name__ == "__main__":
+    with sync_playwright() as p:
+        b = p.chromium.launch(); pg = b.new_page(viewport={"width": 1080, "height": 1350})
+        for k, html in CHAMADAS.items():
+            pg.set_content(html); pg.wait_for_timeout(150); pg.screenshot(path=f"{OUT}/{k}.png"); print(k)
+        b.close()

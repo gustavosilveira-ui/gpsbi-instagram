@@ -38,6 +38,7 @@
 |---|---|---|---|
 | 2026-10-05 | Lucro no papel não paga boleto (DRE x caixa) | 3 perguntas que um bom dashboard responde | Planilha não é o problema |
 | 2026-10-12 | Você está financiando seu cliente (capital de giro / prazos) | O que um painel de contas a receber precisa mostrar | Todo projeto de BI começa sem nenhum gráfico |
+| 2026-10-19 | Desconto de 10% pode exigir 50% a mais de vendas (desconto x margem) | O faturamento subiu. Você sabe por quê? (ticket, mix, desconto) | Cada área com seu número vira briga de planilha (alinhar indicadores) |
 
 ## Stories (desde 05/10/2026)
 - 1 por dia útil + 1 no sábado; domingo sem story. Gerador: `python3 tools/stories.py AAAA-MM-DD` (adicione a semana no dict SEMANAS, siga o modelo de 2026-10-05).

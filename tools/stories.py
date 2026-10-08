@@ -60,6 +60,37 @@ SEMANAS["extra-2026-10-03"] = {
     '<p><b>Amanhã às 10h</b> tem post sobre isso no feed. 👀</p>'),
 }
 
+SEMANAS["2026-10-19"] = {
+  "2026-10-19_story-dica": ("Dica rápida",
+    '<div class=bar></div><h1>Vai dar <em>desconto?</em> Peça algo em&nbsp;troca.</h1>'
+    '<p style="font-size:46px">Pagamento à vista, <b>pedido maior</b> ou prazo menor.</p>'
+    '<p>Desconto sem contrapartida sai direto da sua margem.</p>'),
+  "2026-10-20_story-mito-1": ("Mito ou verdade?",
+    '<div class=bar></div><h1>"Dar desconto aumenta o lucro, porque a gente <em>vende&nbsp;mais.</em>"</h1>'
+    '<p style="font-size:46px;margin-top:80px"><b>Mito ou verdade?</b></p><p>A resposta sai hoje às 18h 👀</p>'),
+  "2026-10-20_story-mito-2": ("Resposta",
+    '<div class=big style="font-size:150px;margin:0 0 30px">MITO.</div>'
+    '<h2>Desconto reduz o que <em>sobra</em> de cada&nbsp;venda.</h2>'
+    '<p>Se o volume não crescer o bastante para compensar, o faturamento sobe e <b>o lucro cai.</b> A&nbsp;conta completa está no post de segunda.</p>'),
+  "2026-10-21_story-post-novo": ("Post novo no feed",
+    '<h2>O faturamento subiu.<br>Você sabe <em>por&nbsp;quê?</em></h2>'
+    + '<div style="text-align:center">' + img("posts/2026-10/2026-10-21_vendas-1.png", 560) + '</div>'
+    '<p style="text-align:center">Toca no perfil e arrasta o carrossel ➡️</p>'),
+  "2026-10-22_story-termo": ("Termo da semana",
+    '<div class=bar></div><h1>Ticket <em>médio</em></h1>'
+    '<p style="font-size:42px">Faturamento do período dividido pelo <b>número de vendas.</b></p>'
+    '<p>Sozinho diz pouco. Ao lado do número de pedidos, mostra se você cresceu vendendo para mais gente ou vendendo mais para cada&nbsp;um.</p>'),
+  "2026-10-23_story-reflexao": ("Reflexão",
+    '<h1 style="font-size:84px">Antes de discutir o&nbsp;número, combine <em>o&nbsp;que ele&nbsp;mede.</em></h1>'
+    '<div class=sign><b>Gustavo Silveira</b><span>fundador GPSBI</span></div>'),
+  "2026-10-24_story-resumo": ("Resumo da semana",
+    '<div class=bar></div><h1>Perdeu algum? <em>Tá no feed.</em></h1><div style="margin-top:56px">'
+    '<div class=item><div class=ic>1</div><div><h3>Desconto de 10% pode exigir 50%&nbsp;a&nbsp;mais de vendas</h3><p>Desconto e margem</p></div></div>'
+    '<div class=item><div class=ic>2</div><div><h3>O faturamento subiu. Por quê?</h3><p>Ticket, mix e desconto</p></div></div>'
+    '<div class=item><div class=ic>3</div><div><h3>Cada área com seu número</h3><p>Primeiro, alinhar o que cada indicador mede</p></div></div>'
+    '</div><p>Bom fim de semana! 👋</p>'),
+}
+
 if __name__ == "__main__":
     semana = sys.argv[1]
     with sync_playwright() as p:

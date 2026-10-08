@@ -1,0 +1,44 @@
+[
+ {
+  "file": "2026-10-19_desconto-e-margem",
+  "tag": "Gestão financeira",
+  "theme": "light",
+  "body": "<div class=bar></div><h1>Desconto de 10% pode exigir <em>50% a mais</em> de&nbsp;vendas.</h1><div class=cmp><div class=box><div class=k>Preço cheio</div><div class=v>R$ 30</div><div class=s>sobram por venda</div></div><div class=\"box hl\"><div class=k>Com 10% off</div><div class=v>R$ 20</div><div class=s>sobram por venda</div></div></div><p>Exemplo: produto de R$ 100 com custo variável de R$ 70. Para sobrar o mesmo no fim do mês, <b>você precisa vender 50% a&nbsp;mais.</b></p>"
+ },
+ {
+  "file": "2026-10-21_vendas-1",
+  "tag": "BI na prática",
+  "foot": "arraste <span class=swipe>→</span>",
+  "body": "<div class=bar></div><h1>O faturamento subiu. Você sabe <em>por&nbsp;quê?</em></h1><p>Mais clientes, ticket maior ou só desconto? <b>Cada resposta pede uma decisão diferente.</b></p>"
+ },
+ {
+  "file": "2026-10-21_vendas-2",
+  "tag": "Pergunta 1",
+  "foot": "arraste <span class=swipe>→</span>",
+  "body": "<div class=num>01</div><h2>Mais pedidos ou <em>ticket&nbsp;maior?</em></h2><div class=\"chart\"><div class=vbars><i class=\"\" style=\"--h:92%\" data-l=\"jun\" data-v=\"R$ 410\"></i><i class=\"\" style=\"--h:86%\" data-l=\"jul\" data-v=\"R$ 395\"></i><i class=\"\" style=\"--h:78%\" data-l=\"ago\" data-v=\"R$ 372\"></i><i class=\"\" style=\"--h:70%\" data-l=\"set\" data-v=\"R$ 350\"></i><i class=\"hl\" style=\"--h:64%\" data-l=\"out\" data-v=\"R$ 338\"></i></div></div><div class=note>Dados ilustrativos · ticket médio caindo enquanto os pedidos sobem</div>"
+ },
+ {
+  "file": "2026-10-21_vendas-3",
+  "tag": "Pergunta 2",
+  "foot": "arraste <span class=swipe>→</span>",
+  "body": "<div class=num>02</div><h2>Qual linha <em>puxou</em> o&nbsp;crescimento?</h2><div class=\"chart hbars\"><div class=row><span class=l>Linha A</span><span class=t><i class=\"hl\" style=\"--w:90%\"></i></span><span class=v>+32%</span></div><div class=row><span class=l>Linha B</span><span class=t><i class=\"\" style=\"--w:38%\"></i></span><span class=v>+12%</span></div><div class=row><span class=l>Linha C</span><span class=t><i class=\"\" style=\"--w:14%\"></i></span><span class=v>+4%</span></div><div class=row><span class=l>Linha D</span><span class=t><i class=\"\" style=\"--w:6%\"></i></span><span class=v>–6%</span></div></div><div class=note>Dados ilustrativos · variação do faturamento contra o mês anterior</div>"
+ },
+ {
+  "file": "2026-10-21_vendas-4",
+  "tag": "Pergunta 3",
+  "foot": "arraste <span class=swipe>→</span>",
+  "body": "<div class=num>03</div><h2>O desconto médio está <em>subindo?</em></h2><div class=chart><svg viewBox=\"0 0 804 340\"><polygon points=\"10,290 10,266 167,236 324,206 480,160 637,114 794,64 794,290\" fill=\"rgba(54,226,201,.12)\"/><polyline points=\"10,266 167,236 324,206 480,160 637,114 794,64\" fill=\"none\" stroke=\"#36E2C9\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"10\" cy=\"266\" r=\"6\" fill=\"#36E2C9\"/><circle cx=\"167\" cy=\"236\" r=\"6\" fill=\"#36E2C9\"/><circle cx=\"324\" cy=\"206\" r=\"6\" fill=\"#36E2C9\"/><circle cx=\"480\" cy=\"160\" r=\"6\" fill=\"#36E2C9\"/><circle cx=\"637\" cy=\"114\" r=\"6\" fill=\"#36E2C9\"/><circle cx=\"794\" cy=\"64\" r=\"9\" fill=\"#36E2C9\"/><text x=\"790\" y=\"44\" text-anchor=\"end\" font-size=\"28\" font-weight=\"700\" fill=\"#F6F9FC\" font-family=\"Inter\">10,3%</text><text x=\"10\" y=\"328\" text-anchor=\"start\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">mai</text><text x=\"167\" y=\"328\" text-anchor=\"middle\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">jun</text><text x=\"324\" y=\"328\" text-anchor=\"middle\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">jul</text><text x=\"480\" y=\"328\" text-anchor=\"middle\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">ago</text><text x=\"637\" y=\"328\" text-anchor=\"middle\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">set</text><text x=\"794\" y=\"328\" text-anchor=\"end\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">out</text></svg></div><div class=note>Dados ilustrativos · desconto médio sobre o preço de tabela</div>"
+ },
+ {
+  "file": "2026-10-21_vendas-5",
+  "tag": "GPSBI",
+  "theme": "light",
+  "body": "<div class=bar></div><h1>Seu painel de vendas mostra <em>o&nbsp;porquê?</em></h1><p>A GPSBI conecta seu ERP a dashboards que separam <b>volume, preço e desconto</b> no mesmo&nbsp;lugar.</p><div><span class=pill>Fale com a gente · link na bio</span></div>"
+ },
+ {
+  "file": "2026-10-23_mesmo-numero",
+  "tag": "Visão GPSBI",
+  "theme": "quote",
+  "body": "<h1>Quando cada área tem o seu número, a reunião vira <em>briga de&nbsp;planilha.</em></h1><p>Antes de qualquer painel, a gente alinha <b>o que cada indicador mede</b> e de onde ele&nbsp;vem.</p><div class=sign><b>Gustavo Silveira</b><span>fundador GPSBI</span></div>"
+ }
+]

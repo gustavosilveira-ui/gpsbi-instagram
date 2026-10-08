@@ -101,7 +101,38 @@ W2 = [
   '<div class=sign><b>Gustavo Silveira</b><span>fundador GPSBI</span></div>'},
 ]
 
+W3 = [
+ {"file": "2026-10-19_desconto-e-margem", "tag": "Gestão financeira", "theme": "light", "body":
+  '<div class=bar></div><h1>Desconto de 10% pode exigir <em>50% a mais</em> de&nbsp;vendas.</h1>'
+  '<div class=cmp><div class=box><div class=k>Preço cheio</div><div class=v>R$ 30</div><div class=s>sobram por venda</div></div>'
+  '<div class="box hl"><div class=k>Com 10% off</div><div class=v>R$ 20</div><div class=s>sobram por venda</div></div></div>'
+  '<p>Exemplo: produto de R$ 100 com custo variável de R$ 70. Para sobrar o mesmo no fim do mês, <b>você precisa vender 50% a&nbsp;mais.</b></p>'},
+ {"file": "2026-10-21_vendas-1", "tag": "BI na prática", "foot": SW, "body":
+  '<div class=bar></div><h1>O faturamento subiu. Você sabe <em>por&nbsp;quê?</em></h1>'
+  '<p>Mais clientes, ticket maior ou só desconto? <b>Cada resposta pede uma decisão diferente.</b></p>'},
+ {"file": "2026-10-21_vendas-2", "tag": "Pergunta 1", "foot": SW, "body":
+  '<div class=num>01</div><h2>Mais pedidos ou <em>ticket&nbsp;maior?</em></h2>'
+  + vbars([("jun", 92, "R$ 410", False), ("jul", 86, "R$ 395", False), ("ago", 78, "R$ 372", False), ("set", 70, "R$ 350", False), ("out", 64, "R$ 338", True)])
+  + '<div class=note>Dados ilustrativos · ticket médio caindo enquanto os pedidos sobem</div>'},
+ {"file": "2026-10-21_vendas-3", "tag": "Pergunta 2", "foot": SW, "body":
+  '<div class=num>02</div><h2>Qual linha <em>puxou</em> o&nbsp;crescimento?</h2>'
+  + hbars([("Linha A", 90, "+32%", True), ("Linha B", 38, "+12%", False), ("Linha C", 14, "+4%", False), ("Linha D", 6, "–6%", False)])
+  + '<div class=note>Dados ilustrativos · variação do faturamento contra o mês anterior</div>'},
+ {"file": "2026-10-21_vendas-4", "tag": "Pergunta 3", "foot": SW, "body":
+  '<div class=num>03</div><h2>O desconto médio está <em>subindo?</em></h2>'
+  '<div class=chart>' + line([4.2, 5.1, 6.0, 7.4, 8.8, 10.3], ["mai", "jun", "jul", "ago", "set", "out"], fmt="{}%") + '</div>'
+  '<div class=note>Dados ilustrativos · desconto médio sobre o preço de tabela</div>'},
+ {"file": "2026-10-21_vendas-5", "tag": "GPSBI", "theme": "light", "body":
+  '<div class=bar></div><h1>Seu painel de vendas mostra <em>o&nbsp;porquê?</em></h1>'
+  '<p>A GPSBI conecta seu ERP a dashboards que separam <b>volume, preço e desconto</b> no mesmo&nbsp;lugar.</p>'
+  '<div><span class=pill>Fale com a gente · link na bio</span></div>'},
+ {"file": "2026-10-23_mesmo-numero", "tag": "Visão GPSBI", "theme": "quote", "body":
+  '<h1>Quando cada área tem o seu número, a reunião vira <em>briga de&nbsp;planilha.</em></h1>'
+  '<p>Antes de qualquer painel, a gente alinha <b>o que cada indicador mede</b> e de onde ele&nbsp;vem.</p>'
+  '<div class=sign><b>Gustavo Silveira</b><span>fundador GPSBI</span></div>'},
+]
+
 if __name__ == "__main__":
-    for name, w in (("2026-10-05", W1), ("2026-10-12", W2)):
+    for name, w in (("2026-10-05", W1), ("2026-10-12", W2), ("2026-10-19", W3)):
         json.dump(w, open(os.path.join(D, name + ".json"), "w"), ensure_ascii=False, indent=1)
     print("ok")

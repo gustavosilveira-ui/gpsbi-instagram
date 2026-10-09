@@ -41,6 +41,7 @@
 | 2026-10-19 | Desconto de 10% pode exigir 50% a mais de vendas (desconto x margem) | O faturamento subiu. Você sabe por quê? (ticket, mix, desconto) | Cada área com seu número vira briga de planilha (alinhar indicadores) |
 
 ## Stories (desde 05/10/2026)
+- **Stories não podem parar nunca** (decisão do Gustavo em 09/10/2026): toda semana com feed precisa ter os stories prontos junto. Ao preparar uma semana, confira também se as semanas anteriores já agendadas têm stories.
 - 1 por dia útil + 1 no sábado; domingo sem story. Gerador: `python3 tools/stories.py AAAA-MM-DD` (adicione a semana no dict SEMANAS, siga o modelo de 2026-10-05).
 - Seg 12h dica rápida (dark) · Ter 12h "Mito ou verdade?" (light) + 18h resposta (dark) · Qua 12h "Post novo no feed" com miniatura da capa do carrossel (dark) · Qui 12h termo da semana (light) · Sex 12h reflexão do Gustavo (quote) · Sáb 11h resumo da semana (light).
 - Metricool: instagramData {"type":"STORY"}, sem texto, mediaAltText preenchido, draft true até o Gustavo aprovar.

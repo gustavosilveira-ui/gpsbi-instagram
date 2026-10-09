@@ -91,6 +91,37 @@ SEMANAS["2026-10-19"] = {
     '</div><p>Bom fim de semana! 👋</p>'),
 }
 
+SEMANAS["2026-10-12"] = {
+  "2026-10-12_story-dica": ("Dica rápida",
+    '<div class=bar></div><h1>Vai aumentar o&nbsp;prazo do <em>cliente?</em></h1>'
+    '<p style="font-size:46px">Pergunta antes: <b>quem paga esses dias a&nbsp;mais?</b></p>'
+    '<p>Quase sempre é o seu caixa. Prazo maior para receber precisa vir com prazo maior para&nbsp;pagar.</p>'),
+  "2026-10-13_story-mito-1": ("Mito ou verdade?",
+    '<div class=bar></div><h1>"Cliente que atrasa mas sempre paga <em>não é&nbsp;problema.</em>"</h1>'
+    '<p style="font-size:46px;margin-top:80px"><b>Mito ou verdade?</b></p><p>A resposta sai hoje às 18h 👀</p>'),
+  "2026-10-13_story-mito-2": ("Resposta",
+    '<div class=big style="font-size:150px;margin:0 0 30px">MITO.</div>'
+    '<h2>Cada dia de atraso é o seu caixa <em>financiando</em> o&nbsp;cliente.</h2>'
+    '<p>E atraso que vira hábito costuma crescer. Por isso vale acompanhar <b>por faixa de atraso</b>, não só o total em&nbsp;aberto.</p>'),
+  "2026-10-14_story-post-novo": ("Post novo no feed",
+    '<h2>O que um painel de contas a receber <em>precisa&nbsp;mostrar.</em></h2>'
+    + '<div style="text-align:center">' + img("posts/2026-10/2026-10-14_contas-a-receber-1.png", 560) + '</div>'
+    '<p style="text-align:center">Toca no perfil e arrasta o carrossel ➡️</p>'),
+  "2026-10-15_story-termo": ("Termo da semana",
+    '<div class=bar></div><h1>Prazo médio de <em>recebimento</em></h1>'
+    '<p style="font-size:42px">Quantos dias, em média, você leva para <b>receber depois de&nbsp;vender.</b></p>'
+    '<p>Comparado ao prazo médio de pagamento, mostra por quanto tempo o seu caixa banca a&nbsp;operação.</p>'),
+  "2026-10-16_story-reflexao": ("Reflexão",
+    '<h1 style="font-size:84px">Painel bom não é o&nbsp;mais bonito. É o que responde <em>a&nbsp;pergunta que você&nbsp;tem.</em></h1>'
+    '<div class=sign><b>Gustavo Silveira</b><span>fundador GPSBI</span></div>'),
+  "2026-10-17_story-resumo": ("Resumo da semana",
+    '<div class=bar></div><h1>Perdeu algum? <em>Tá no feed.</em></h1><div style="margin-top:56px">'
+    '<div class=item><div class=ic>1</div><div><h3>Você está financiando seu&nbsp;cliente</h3><p>Capital de giro e prazos</p></div></div>'
+    '<div class=item><div class=ic>2</div><div><h3>Painel de contas a&nbsp;receber</h3><p>Atraso, concentração e tendência</p></div></div>'
+    '<div class=item><div class=ic>3</div><div><h3>Todo projeto de BI começa sem&nbsp;gráfico</h3><p>Primeiro, as decisões</p></div></div>'
+    '</div><p>Bom fim de semana! 👋</p>'),
+}
+
 if __name__ == "__main__":
     semana = sys.argv[1]
     with sync_playwright() as p:

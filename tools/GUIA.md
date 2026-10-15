@@ -39,6 +39,7 @@
 | 2026-10-05 | Lucro no papel não paga boleto (DRE x caixa) | 3 perguntas que um bom dashboard responde | Planilha não é o problema |
 | 2026-10-12 | Você está financiando seu cliente (capital de giro / prazos) | O que um painel de contas a receber precisa mostrar | Todo projeto de BI começa sem nenhum gráfico |
 | 2026-10-19 | Desconto de 10% pode exigir 50% a mais de vendas (desconto x margem) | O faturamento subiu. Você sabe por quê? (ticket, mix, desconto) | Cada área com seu número vira briga de planilha (alinhar indicadores) |
+| 2026-10-26 | Sua empresa não é o seu cofrinho (pró-labore / separar PF e PJ) | Estoque parado é dinheiro parado (valor, giro, cobertura) | Painel que não entra na rotina vira só mais um link (adoção) |
 
 ## Stories (desde 05/10/2026)
 - **Stories não podem parar nunca** (decisão do Gustavo em 09/10/2026): toda semana com feed precisa ter os stories prontos junto. Ao preparar uma semana, confira também se as semanas anteriores já agendadas têm stories.

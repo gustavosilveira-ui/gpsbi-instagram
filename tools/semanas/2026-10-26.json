@@ -1,0 +1,44 @@
+[
+ {
+  "file": "2026-10-26_pro-labore",
+  "tag": "Gestão financeira",
+  "theme": "light",
+  "body": "<div class=bar></div><h1>Sua empresa não é o seu <em>cofrinho.</em></h1><div class=cmp><div class=box><div class=k>Sem pró-labore</div><div class=v>R$ ?</div><div class=s>tira quando precisa</div></div><div class=\"box hl\"><div class=k>Com pró-labore</div><div class=v>R$ fixo</div><div class=s>todo mês, no mesmo dia</div></div></div><p>Quando o dono tira do caixa \"quando precisa\", <b>ninguém sabe se a empresa dá lucro de&nbsp;verdade.</b></p>"
+ },
+ {
+  "file": "2026-10-28_estoque-1",
+  "tag": "BI na prática",
+  "foot": "arraste <span class=swipe>→</span>",
+  "body": "<div class=bar></div><h1>Estoque parado é <em>dinheiro&nbsp;parado.</em></h1><p>Ele não aparece como despesa, mas <b>prende o caixa</b> do mesmo jeito. Um painel mostra&nbsp;onde.</p>"
+ },
+ {
+  "file": "2026-10-28_estoque-2",
+  "tag": "Pergunta 1",
+  "foot": "arraste <span class=swipe>→</span>",
+  "body": "<div class=num>01</div><h2>Quanto dinheiro está <em>na&nbsp;prateleira?</em></h2><div class=chart><svg viewBox=\"0 0 804 340\"><polygon points=\"10,290 10,266 167,239 324,208 480,160 637,111 794,64 794,290\" fill=\"rgba(54,226,201,.12)\"/><polyline points=\"10,266 167,239 324,208 480,160 637,111 794,64\" fill=\"none\" stroke=\"#36E2C9\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"10\" cy=\"266\" r=\"6\" fill=\"#36E2C9\"/><circle cx=\"167\" cy=\"239\" r=\"6\" fill=\"#36E2C9\"/><circle cx=\"324\" cy=\"208\" r=\"6\" fill=\"#36E2C9\"/><circle cx=\"480\" cy=\"160\" r=\"6\" fill=\"#36E2C9\"/><circle cx=\"637\" cy=\"111\" r=\"6\" fill=\"#36E2C9\"/><circle cx=\"794\" cy=\"64\" r=\"9\" fill=\"#36E2C9\"/><text x=\"790\" y=\"44\" text-anchor=\"end\" font-size=\"28\" font-weight=\"700\" fill=\"#F6F9FC\" font-family=\"Inter\">R$ 421k</text><text x=\"10\" y=\"328\" text-anchor=\"start\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">mai</text><text x=\"167\" y=\"328\" text-anchor=\"middle\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">jun</text><text x=\"324\" y=\"328\" text-anchor=\"middle\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">jul</text><text x=\"480\" y=\"328\" text-anchor=\"middle\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">ago</text><text x=\"637\" y=\"328\" text-anchor=\"middle\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">set</text><text x=\"794\" y=\"328\" text-anchor=\"end\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">out</text></svg></div><div class=note>Dados ilustrativos · valor do estoque a preço de custo</div>"
+ },
+ {
+  "file": "2026-10-28_estoque-3",
+  "tag": "Pergunta 2",
+  "foot": "arraste <span class=swipe>→</span>",
+  "body": "<div class=num>02</div><h2>Quais itens estão <em>sem&nbsp;giro?</em></h2><div class=\"chart hbars\"><div class=row><span class=l>Item A</span><span class=t><i class=\"hl\" style=\"--w:92%\"></i></span><span class=v>180 d</span></div><div class=row><span class=l>Item B</span><span class=t><i class=\"hl\" style=\"--w:70%\"></i></span><span class=v>135 d</span></div><div class=row><span class=l>Item C</span><span class=t><i class=\"\" style=\"--w:48%\"></i></span><span class=v>95 d</span></div><div class=row><span class=l>Item D</span><span class=t><i class=\"\" style=\"--w:20%\"></i></span><span class=v>40 d</span></div></div><div class=note>Dados ilustrativos · dias desde a última venda</div>"
+ },
+ {
+  "file": "2026-10-28_estoque-4",
+  "tag": "Pergunta 3",
+  "foot": "arraste <span class=swipe>→</span>",
+  "body": "<div class=num>03</div><h2>Quantos dias de venda o estoque <em>cobre?</em></h2><div class=\"chart\"><div class=vbars><i class=\"\" style=\"--h:22%\" data-l=\"Linha A\" data-v=\"25 d\"></i><i class=\"\" style=\"--h:33%\" data-l=\"Linha B\" data-v=\"38 d\"></i><i class=\"\" style=\"--h:48%\" data-l=\"Linha C\" data-v=\"55 d\"></i><i class=\"hl\" style=\"--h:95%\" data-l=\"Linha D\" data-v=\"120 d\"></i></div></div><div class=note>Dados ilustrativos · cobertura = estoque ÷ venda média diária</div>"
+ },
+ {
+  "file": "2026-10-28_estoque-5",
+  "tag": "GPSBI",
+  "theme": "light",
+  "body": "<div class=bar></div><h1>Seu estoque já está <em>num&nbsp;painel?</em></h1><p>A GPSBI conecta seu ERP a dashboards que mostram <b>o que comprar, o que segurar e o&nbsp;que&nbsp;girar.</b></p><div><span class=pill>Fale com a gente · link na bio</span></div>"
+ },
+ {
+  "file": "2026-10-30_painel-na-rotina",
+  "tag": "Visão GPSBI",
+  "theme": "quote",
+  "body": "<h1>Painel que não entra na rotina vira <em>só mais um&nbsp;link.</em></h1><p>Por isso, junto com o painel, a gente combina <b>quem olha, quando olha e que decisão sai&nbsp;dali.</b></p><div class=sign><b>Gustavo Silveira</b><span>fundador GPSBI</span></div>"
+ }
+]

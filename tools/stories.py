@@ -122,6 +122,37 @@ SEMANAS["2026-10-12"] = {
     '</div><p>Bom fim de semana! 👋</p>'),
 }
 
+SEMANAS["2026-10-26"] = {
+  "2026-10-26_story-dica": ("Dica rápida",
+    '<div class=bar></div><h1>Defina um <em style="white-space:nowrap">pró-labore</em> e pague no mesmo dia, todo&nbsp;mês.</h1>'
+    '<p style="font-size:46px">Como se fosse <b>o salário de qualquer&nbsp;pessoa</b> do&nbsp;time.</p>'
+    '<p>Tirar do caixa "quando precisa" esconde se a empresa dá lucro de&nbsp;verdade.</p>'),
+  "2026-10-27_story-mito-1": ("Mito ou verdade?",
+    '<div class=bar></div><h1>"Se a empresa é minha, o dinheiro do caixa <em>também&nbsp;é.</em>"</h1>'
+    '<p style="font-size:46px;margin-top:80px"><b>Mito ou verdade?</b></p><p>A resposta sai hoje às 18h 👀</p>'),
+  "2026-10-27_story-mito-2": ("Resposta",
+    '<div class=big style="font-size:150px;margin:0 0 30px">MITO.</div>'
+    '<h2>O caixa é da empresa. O&nbsp;seu é o <em style="white-space:nowrap">pró-labore.</em></h2>'
+    '<p>Misturar as contas faz o resultado parecer melhor ou pior do que é, e <b>tira a sua base para&nbsp;decidir.</b> Mais no post de&nbsp;segunda.</p>'),
+  "2026-10-28_story-post-novo": ("Post novo no feed",
+    '<h2>Estoque parado é <em>dinheiro&nbsp;parado.</em></h2>'
+    + '<div style="text-align:center">' + img("posts/2026-10/2026-10-28_estoque-1.png", 560) + '</div>'
+    '<p style="text-align:center">Toca no perfil e arrasta o carrossel ➡️</p>'),
+  "2026-10-29_story-termo": ("Termo da semana",
+    '<div class=bar></div><h1>Giro de <em>estoque</em></h1>'
+    '<p style="font-size:42px">Quantas vezes o estoque se renova no período: <b>custo do que foi vendido ÷ estoque&nbsp;médio.</b></p>'
+    '<p>Giro baixo quer dizer dinheiro parado na prateleira, esperando virar&nbsp;venda.</p>'),
+  "2026-10-30_story-reflexao": ("Reflexão",
+    '<h1 style="font-size:84px">O melhor painel é o que alguém abre <em>toda&nbsp;semana</em> para&nbsp;decidir.</h1>'
+    '<div class=sign><b>Gustavo Silveira</b><span>fundador GPSBI</span></div>'),
+  "2026-10-31_story-resumo": ("Resumo da semana",
+    '<div class=bar></div><h1>Perdeu algum? <em>Tá no feed.</em></h1><div style="margin-top:56px">'
+    '<div class=item><div class=ic>1</div><div><h3>Sua empresa não é o seu&nbsp;cofrinho</h3><p>Pró-labore e contas separadas</p></div></div>'
+    '<div class=item><div class=ic>2</div><div><h3>Estoque parado é dinheiro&nbsp;parado</h3><p>Valor, giro e cobertura</p></div></div>'
+    '<div class=item><div class=ic>3</div><div><h3>Painel que não entra na&nbsp;rotina</h3><p>Quem olha, quando e para quê</p></div></div>'
+    '</div><p>Bom fim de semana! 👋</p>'),
+}
+
 if __name__ == "__main__":
     semana = sys.argv[1]
     with sync_playwright() as p:

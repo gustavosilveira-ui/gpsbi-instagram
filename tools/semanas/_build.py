@@ -132,7 +132,38 @@ W3 = [
   '<div class=sign><b>Gustavo Silveira</b><span>fundador GPSBI</span></div>'},
 ]
 
+W4 = [
+ {"file": "2026-10-26_pro-labore", "tag": "Gestão financeira", "theme": "light", "body":
+  '<div class=bar></div><h1>Sua empresa não é o seu <em>cofrinho.</em></h1>'
+  '<div class=cmp><div class=box><div class=k>Sem pró-labore</div><div class=v>R$ ?</div><div class=s>tira quando precisa</div></div>'
+  '<div class="box hl"><div class=k>Com pró-labore</div><div class=v>R$ fixo</div><div class=s>todo mês, no mesmo dia</div></div></div>'
+  '<p>Quando o dono tira do caixa "quando precisa", <b>ninguém sabe se a empresa dá lucro de&nbsp;verdade.</b></p>'},
+ {"file": "2026-10-28_estoque-1", "tag": "BI na prática", "foot": SW, "body":
+  '<div class=bar></div><h1>Estoque parado é <em>dinheiro&nbsp;parado.</em></h1>'
+  '<p>Ele não aparece como despesa, mas <b>prende o caixa</b> do mesmo jeito. Um painel mostra&nbsp;onde.</p>'},
+ {"file": "2026-10-28_estoque-2", "tag": "Pergunta 1", "foot": SW, "body":
+  '<div class=num>01</div><h2>Quanto dinheiro está <em>na&nbsp;prateleira?</em></h2>'
+  '<div class=chart>' + line([310, 325, 342, 368, 395, 421], ["mai", "jun", "jul", "ago", "set", "out"], fmt="R$ {}k") + '</div>'
+  '<div class=note>Dados ilustrativos · valor do estoque a preço de custo</div>'},
+ {"file": "2026-10-28_estoque-3", "tag": "Pergunta 2", "foot": SW, "body":
+  '<div class=num>02</div><h2>Quais itens estão <em>sem&nbsp;giro?</em></h2>'
+  + hbars([("Item A", 92, "180 d", True), ("Item B", 70, "135 d", True), ("Item C", 48, "95 d", False), ("Item D", 20, "40 d", False)])
+  + '<div class=note>Dados ilustrativos · dias desde a última venda</div>'},
+ {"file": "2026-10-28_estoque-4", "tag": "Pergunta 3", "foot": SW, "body":
+  '<div class=num>03</div><h2>Quantos dias de venda o estoque <em>cobre?</em></h2>'
+  + vbars([("Linha A", 22, "25 d", False), ("Linha B", 33, "38 d", False), ("Linha C", 48, "55 d", False), ("Linha D", 95, "120 d", True)])
+  + '<div class=note>Dados ilustrativos · cobertura = estoque ÷ venda média diária</div>'},
+ {"file": "2026-10-28_estoque-5", "tag": "GPSBI", "theme": "light", "body":
+  '<div class=bar></div><h1>Seu estoque já está <em>num&nbsp;painel?</em></h1>'
+  '<p>A GPSBI conecta seu ERP a dashboards que mostram <b>o que comprar, o que segurar e o&nbsp;que&nbsp;girar.</b></p>'
+  '<div><span class=pill>Fale com a gente · link na bio</span></div>'},
+ {"file": "2026-10-30_painel-na-rotina", "tag": "Visão GPSBI", "theme": "quote", "body":
+  '<h1>Painel que não entra na rotina vira <em>só mais um&nbsp;link.</em></h1>'
+  '<p>Por isso, junto com o painel, a gente combina <b>quem olha, quando olha e que decisão sai&nbsp;dali.</b></p>'
+  '<div class=sign><b>Gustavo Silveira</b><span>fundador GPSBI</span></div>'},
+]
+
 if __name__ == "__main__":
-    for name, w in (("2026-10-05", W1), ("2026-10-12", W2), ("2026-10-19", W3)):
+    for name, w in (("2026-10-05", W1), ("2026-10-12", W2), ("2026-10-19", W3), ("2026-10-26", W4)):
         json.dump(w, open(os.path.join(D, name + ".json"), "w"), ensure_ascii=False, indent=1)
     print("ok")

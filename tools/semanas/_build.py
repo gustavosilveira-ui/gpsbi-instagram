@@ -163,7 +163,38 @@ W4 = [
   '<div class=sign><b>Gustavo Silveira</b><span>fundador GPSBI</span></div>'},
 ]
 
+W5 = [
+ {"file": "2026-11-02_ponto-de-equilibrio", "tag": "Gestão financeira", "theme": "light", "body":
+  '<div class=bar></div><h1>Quanto você precisa vender só para <em>empatar?</em></h1>'
+  '<div class=cmp><div class=box><div class=k>Despesas fixas</div><div class=v>R$ 30 mil</div><div class=s>por mês</div></div>'
+  '<div class="box hl"><div class=k>Ponto de equilíbrio</div><div class=v>R$ 75 mil</div><div class=s>com margem de 40%</div></div></div>'
+  '<p>Exemplo: com 40% de margem de contribuição, cada R$ 100 vendidos deixam R$ 40 para pagar o fixo. <b>Abaixo de R$ 75 mil, o mês fecha no&nbsp;vermelho.</b></p>'},
+ {"file": "2026-11-04_clientes-1", "tag": "BI na prática", "foot": SW, "body":
+  '<div class=bar></div><h1>Seu cliente parou de comprar. <em>Você&nbsp;percebeu?</em></h1>'
+  '<p>Cliente raramente avisa que foi embora. Ele só <b>some do&nbsp;relatório.</b></p>'},
+ {"file": "2026-11-04_clientes-2", "tag": "Pergunta 1", "foot": SW, "body":
+  '<div class=num>01</div><h2>Quantos clientes <em>compraram</em> no&nbsp;mês?</h2>'
+  '<div class=chart>' + line([212, 205, 198, 190, 181, 172], ["mai", "jun", "jul", "ago", "set", "out"]) + '</div>'
+  '<div class=note>Dados ilustrativos · clientes com pelo menos uma compra no mês</div>'},
+ {"file": "2026-11-04_clientes-3", "tag": "Pergunta 2", "foot": SW, "body":
+  '<div class=num>02</div><h2>Quem mais <em>reduziu</em> as&nbsp;compras?</h2>'
+  + hbars([("Cliente A", 92, "–62%", True), ("Cliente B", 72, "–48%", True), ("Cliente C", 40, "–27%", False), ("Cliente D", 15, "–10%", False)])
+  + '<div class=note>Dados ilustrativos · últimos 3 meses contra os 3 anteriores</div>'},
+ {"file": "2026-11-04_clientes-4", "tag": "Pergunta 3", "foot": SW, "body":
+  '<div class=num>03</div><h2>Quantos clientes novos <em>voltaram</em> a&nbsp;comprar?</h2>'
+  + vbars([("abr", 92, "46%", False), ("mai", 84, "42%", False), ("jun", 76, "38%", False), ("jul", 62, "31%", True)])
+  + '<div class=note>Dados ilustrativos · novos clientes que voltaram a comprar em até 90 dias</div>'},
+ {"file": "2026-11-04_clientes-5", "tag": "GPSBI", "theme": "light", "body":
+  '<div class=bar></div><h1>Seu painel mostra quem está <em>indo&nbsp;embora?</em></h1>'
+  '<p>A GPSBI conecta seu ERP a dashboards que mostram <b>quem está comprando menos, quem sumiu e quem&nbsp;voltou.</b></p>'
+  '<div><span class=pill>Fale com a gente · link na bio</span></div>'},
+ {"file": "2026-11-06_dado-na-origem", "tag": "Visão GPSBI", "theme": "quote", "body":
+  '<h1>Dashboard nenhum conserta <em>um lançamento&nbsp;errado.</em></h1>'
+  '<p>Por isso, antes do painel, a gente revisa <b>cadastros, categorias e como cada lançamento entra</b> no&nbsp;ERP.</p>'
+  '<div class=sign><b>Gustavo Silveira</b><span>fundador GPSBI</span></div>'},
+]
+
 if __name__ == "__main__":
-    for name, w in (("2026-10-05", W1), ("2026-10-12", W2), ("2026-10-19", W3), ("2026-10-26", W4)):
+    for name, w in (("2026-10-05", W1), ("2026-10-12", W2), ("2026-10-19", W3), ("2026-10-26", W4), ("2026-11-02", W5)):
         json.dump(w, open(os.path.join(D, name + ".json"), "w"), ensure_ascii=False, indent=1)
     print("ok")

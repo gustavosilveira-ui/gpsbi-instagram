@@ -153,6 +153,37 @@ SEMANAS["2026-10-26"] = {
     '</div><p>Bom fim de semana! 👋</p>'),
 }
 
+SEMANAS["2026-11-02"] = {
+  "2026-11-02_story-dica": ("Dica rápida",
+    '<div class=bar></div><h1>Descubra seu <em>ponto de&nbsp;equilíbrio</em> em uma&nbsp;conta.</h1>'
+    '<p style="font-size:46px"><b>Despesas fixas do mês ÷ margem de contribuição&nbsp;(%).</b></p>'
+    '<p>O resultado é quanto você precisa faturar só para empatar. A partir daí, cada venda começa a deixar&nbsp;lucro.</p>'),
+  "2026-11-03_story-mito-1": ("Mito ou verdade?",
+    '<div class=bar></div><h1>"Faturou mais do que as despesas fixas? Então <em>deu&nbsp;lucro.</em>"</h1>'
+    '<p style="font-size:46px;margin-top:80px"><b>Mito ou verdade?</b></p><p>A resposta sai hoje às 18h 👀</p>'),
+  "2026-11-03_story-mito-2": ("Resposta",
+    '<div class=big style="font-size:150px;margin:0 0 30px">MITO.</div>'
+    '<h2>Antes, cada venda paga os <em>custos&nbsp;variáveis.</em></h2>'
+    '<p>Só o que sobra depois disso paga o fixo. Por isso o ponto de equilíbrio costuma ficar bem acima das despesas fixas. <b>A conta completa está no post de&nbsp;segunda.</b></p>'),
+  "2026-11-04_story-post-novo": ("Post novo no feed",
+    '<h2>Seu cliente parou de comprar. <em>Você&nbsp;percebeu?</em></h2>'
+    + '<div style="text-align:center">' + img("posts/2026-11/2026-11-04_clientes-1.png", 560) + '</div>'
+    '<p style="text-align:center">Toca no perfil e arrasta o carrossel ➡️</p>'),
+  "2026-11-05_story-termo": ("Termo da semana",
+    '<div class=bar></div><h1>Taxa de <em>recompra</em></h1>'
+    '<p style="font-size:42px">Percentual dos clientes que <b>voltam a comprar</b> dentro de um&nbsp;período.</p>'
+    '<p>Se ela cai, você passa a depender cada vez mais de cliente novo só para manter o&nbsp;mesmo&nbsp;faturamento.</p>'),
+  "2026-11-06_story-reflexao": ("Reflexão",
+    '<h1 style="font-size:84px">O painel mostra o que foi lançado. <em>Não o que deveria ter&nbsp;sido.</em></h1>'
+    '<div class=sign><b>Gustavo Silveira</b><span>fundador GPSBI</span></div>'),
+  "2026-11-07_story-resumo": ("Resumo da semana",
+    '<div class=bar></div><h1>Perdeu algum? <em>Tá no feed.</em></h1><div style="margin-top:56px">'
+    '<div class=item><div class=ic>1</div><div><h3>Quanto vender só para&nbsp;empatar?</h3><p>Ponto de equilíbrio</p></div></div>'
+    '<div class=item><div class=ic>2</div><div><h3>Seu cliente parou de&nbsp;comprar</h3><p>Ativos, queda e recompra</p></div></div>'
+    '<div class=item><div class=ic>3</div><div><h3>Dashboard não conserta lançamento&nbsp;errado</h3><p>Qualidade do dado na origem</p></div></div>'
+    '</div><p>Bom fim de semana! 👋</p>'),
+}
+
 if __name__ == "__main__":
     semana = sys.argv[1]
     with sync_playwright() as p:

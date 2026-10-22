@@ -1,0 +1,44 @@
+[
+ {
+  "file": "2026-11-02_ponto-de-equilibrio",
+  "tag": "Gestão financeira",
+  "theme": "light",
+  "body": "<div class=bar></div><h1>Quanto você precisa vender só para <em>empatar?</em></h1><div class=cmp><div class=box><div class=k>Despesas fixas</div><div class=v>R$ 30 mil</div><div class=s>por mês</div></div><div class=\"box hl\"><div class=k>Ponto de equilíbrio</div><div class=v>R$ 75 mil</div><div class=s>com margem de 40%</div></div></div><p>Exemplo: com 40% de margem de contribuição, cada R$ 100 vendidos deixam R$ 40 para pagar o fixo. <b>Abaixo de R$ 75 mil, o mês fecha no&nbsp;vermelho.</b></p>"
+ },
+ {
+  "file": "2026-11-04_clientes-1",
+  "tag": "BI na prática",
+  "foot": "arraste <span class=swipe>→</span>",
+  "body": "<div class=bar></div><h1>Seu cliente parou de comprar. <em>Você&nbsp;percebeu?</em></h1><p>Cliente raramente avisa que foi embora. Ele só <b>some do&nbsp;relatório.</b></p>"
+ },
+ {
+  "file": "2026-11-04_clientes-2",
+  "tag": "Pergunta 1",
+  "foot": "arraste <span class=swipe>→</span>",
+  "body": "<div class=num>01</div><h2>Quantos clientes <em>compraram</em> no&nbsp;mês?</h2><div class=chart><svg viewBox=\"0 0 804 340\"><polygon points=\"10,290 10,64 167,99 324,135 480,175 637,220 794,266 794,290\" fill=\"rgba(54,226,201,.12)\"/><polyline points=\"10,64 167,99 324,135 480,175 637,220 794,266\" fill=\"none\" stroke=\"#36E2C9\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"10\" cy=\"64\" r=\"6\" fill=\"#36E2C9\"/><circle cx=\"167\" cy=\"99\" r=\"6\" fill=\"#36E2C9\"/><circle cx=\"324\" cy=\"135\" r=\"6\" fill=\"#36E2C9\"/><circle cx=\"480\" cy=\"175\" r=\"6\" fill=\"#36E2C9\"/><circle cx=\"637\" cy=\"220\" r=\"6\" fill=\"#36E2C9\"/><circle cx=\"794\" cy=\"266\" r=\"9\" fill=\"#36E2C9\"/><text x=\"790\" y=\"246\" text-anchor=\"end\" font-size=\"28\" font-weight=\"700\" fill=\"#F6F9FC\" font-family=\"Inter\">172</text><text x=\"10\" y=\"328\" text-anchor=\"start\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">mai</text><text x=\"167\" y=\"328\" text-anchor=\"middle\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">jun</text><text x=\"324\" y=\"328\" text-anchor=\"middle\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">jul</text><text x=\"480\" y=\"328\" text-anchor=\"middle\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">ago</text><text x=\"637\" y=\"328\" text-anchor=\"middle\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">set</text><text x=\"794\" y=\"328\" text-anchor=\"end\" font-size=\"22\" fill=\"rgba(246,249,252,.62)\" font-family=\"Inter\">out</text></svg></div><div class=note>Dados ilustrativos · clientes com pelo menos uma compra no mês</div>"
+ },
+ {
+  "file": "2026-11-04_clientes-3",
+  "tag": "Pergunta 2",
+  "foot": "arraste <span class=swipe>→</span>",
+  "body": "<div class=num>02</div><h2>Quem mais <em>reduziu</em> as&nbsp;compras?</h2><div class=\"chart hbars\"><div class=row><span class=l>Cliente A</span><span class=t><i class=\"hl\" style=\"--w:92%\"></i></span><span class=v>–62%</span></div><div class=row><span class=l>Cliente B</span><span class=t><i class=\"hl\" style=\"--w:72%\"></i></span><span class=v>–48%</span></div><div class=row><span class=l>Cliente C</span><span class=t><i class=\"\" style=\"--w:40%\"></i></span><span class=v>–27%</span></div><div class=row><span class=l>Cliente D</span><span class=t><i class=\"\" style=\"--w:15%\"></i></span><span class=v>–10%</span></div></div><div class=note>Dados ilustrativos · últimos 3 meses contra os 3 anteriores</div>"
+ },
+ {
+  "file": "2026-11-04_clientes-4",
+  "tag": "Pergunta 3",
+  "foot": "arraste <span class=swipe>→</span>",
+  "body": "<div class=num>03</div><h2>Quantos clientes novos <em>voltaram</em> a&nbsp;comprar?</h2><div class=\"chart\"><div class=vbars><i class=\"\" style=\"--h:92%\" data-l=\"abr\" data-v=\"46%\"></i><i class=\"\" style=\"--h:84%\" data-l=\"mai\" data-v=\"42%\"></i><i class=\"\" style=\"--h:76%\" data-l=\"jun\" data-v=\"38%\"></i><i class=\"hl\" style=\"--h:62%\" data-l=\"jul\" data-v=\"31%\"></i></div></div><div class=note>Dados ilustrativos · novos clientes que voltaram a comprar em até 90 dias</div>"
+ },
+ {
+  "file": "2026-11-04_clientes-5",
+  "tag": "GPSBI",
+  "theme": "light",
+  "body": "<div class=bar></div><h1>Seu painel mostra quem está <em>indo&nbsp;embora?</em></h1><p>A GPSBI conecta seu ERP a dashboards que mostram <b>quem está comprando menos, quem sumiu e quem&nbsp;voltou.</b></p><div><span class=pill>Fale com a gente · link na bio</span></div>"
+ },
+ {
+  "file": "2026-11-06_dado-na-origem",
+  "tag": "Visão GPSBI",
+  "theme": "quote",
+  "body": "<h1>Dashboard nenhum conserta <em>um lançamento&nbsp;errado.</em></h1><p>Por isso, antes do painel, a gente revisa <b>cadastros, categorias e como cada lançamento entra</b> no&nbsp;ERP.</p><div class=sign><b>Gustavo Silveira</b><span>fundador GPSBI</span></div>"
+ }
+]

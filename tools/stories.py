@@ -184,13 +184,26 @@ SEMANAS["2026-11-02"] = {
     '</div><p>Bom fim de semana! 👋</p>'),
 }
 
+SEMANAS["vagas-2026-11-09"] = {
+  "2026-11-09_story-vaga-faturamento": ("Estamos contratando",
+    '<div class=bar></div><h1>Bora fazer o fiscal <em>girar?</em></h1>'
+    '<p style="font-size:46px">Vaga para <b>Assistente Financeiro(a) e de Faturamento</b> no Financeiro 360 · Apoio&nbsp;Fiscal.</p>'
+    '<p>NF-e, NFS-e, contas a receber e conciliação, junto com a contabilidade de cada&nbsp;cliente.</p>'
+    '<p style="font-size:44px;margin-top:70px"><b>Candidatura simplificada no LinkedIn da Gpsbi</b>, na aba&nbsp;Vagas. 👀</p>'),
+  "2026-11-09_story-vaga-assistente": ("Estamos contratando",
+    '<div class=bar></div><h1>Tem olho bom pra <em>número?</em></h1>'
+    '<p style="font-size:46px">Vaga para <b>Assistente Financeiro(a)</b> no Financeiro&nbsp;360.</p>'
+    '<p>Contas a pagar e a receber, conciliação bancária, fluxo de caixa e fechamento&nbsp;mensal.</p>'
+    '<p style="font-size:44px;margin-top:70px"><b>Candidatura simplificada no LinkedIn da Gpsbi</b>, na aba&nbsp;Vagas. 👀</p>'),
+}
+
 if __name__ == "__main__":
     semana = sys.argv[1]
     with sync_playwright() as p:
         b = p.chromium.launch(); pg = b.new_page(viewport={"width": 1080, "height": 1920})
         for f, (tag, body) in SEMANAS[semana].items():
             out = os.path.join(ROOT, "posts", f[:7], "stories"); os.makedirs(out, exist_ok=True)
-            theme = "quote" if "reflexao" in f else "light" if any(k in f for k in ("mito-1", "termo", "resumo", "vem-ai")) else "dark"
+            theme = "quote" if "reflexao" in f else "light" if any(k in f for k in ("mito-1", "termo", "resumo", "vem-ai", "vaga-assistente")) else "dark"
             pg.set_content(story(tag, body, theme)); pg.wait_for_timeout(150)
             pg.screenshot(path=os.path.join(out, f + ".png")); print(f)
         b.close()

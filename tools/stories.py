@@ -189,12 +189,12 @@ SEMANAS["vagas-2026-11-09"] = {
     '<div class=bar></div><h1>Bora fazer o fiscal <em>girar?</em></h1>'
     '<p style="font-size:46px">Vaga para <b>Assistente Financeiro(a) e de Faturamento</b> no Financeiro 360 · Apoio&nbsp;Fiscal.</p>'
     '<p>NF-e, NFS-e, contas a receber e conciliação, junto com a contabilidade de cada&nbsp;cliente.</p>'
-    '<p style="font-size:44px;margin-top:70px"><b>Candidatura simplificada no LinkedIn da Gpsbi</b>, na aba&nbsp;Vagas. 👀</p>'),
+    '<p style="font-size:44px;margin-top:70px">Manda seu currículo para<br><b style="color:var(--acc-mail,inherit)">vagas@gpsbi.com.br</b> 👀</p>'),
   "2026-11-09_story-vaga-assistente": ("Estamos contratando",
     '<div class=bar></div><h1>Tem olho bom pra <em>número?</em></h1>'
     '<p style="font-size:46px">Vaga para <b>Assistente Financeiro(a)</b> no Financeiro&nbsp;360.</p>'
     '<p>Contas a pagar e a receber, conciliação bancária, fluxo de caixa e fechamento&nbsp;mensal.</p>'
-    '<p style="font-size:44px;margin-top:70px"><b>Candidatura simplificada no LinkedIn da Gpsbi</b>, na aba&nbsp;Vagas. 👀</p>'),
+    '<p style="font-size:44px;margin-top:70px">Manda seu currículo para<br><b style="color:var(--acc-mail,inherit)">vagas@gpsbi.com.br</b> 👀</p>'),
 }
 
 if __name__ == "__main__":
